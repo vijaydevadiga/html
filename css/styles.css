@@ -1,0 +1,33 @@
+body{
+  background-color:#98A8F8 ;
+}
+hr{
+  border-style: none;
+  border-top-style: dotted;
+  border-color: grey;
+  border-width: 5px;
+  width:10%;
+}
+h1{
+  color:#905E96;
+}
+h3{
+    color:#905E96;
+}
+h2{
+  color:#905E96;
+}
+.home:hover{
+  font-style: italic;
+  color: blue;
+}
+.black{
+  cursor: pointer;
+  border-radius: 8px;
+  filter:grayscale(1);
+  transition: .3s linear;
+
+}
+.black:hover{
+  filter: grayscale(0);
+}
